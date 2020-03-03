@@ -1,5 +1,5 @@
 # Sudoku Solver
-A simple python sudoku solver using backtracking
+A simple python sudoku solver using backtracking:
 
 * puzzles are read using pandas/numpy from CSV
 * output is also written to csv 
