@@ -17,9 +17,9 @@ def solvePuzzle (array):
         array[row,column] = n
         if checkPuzzle(array):
             if solvePuzzle(array):
-                return True
+                return (True, array)
     array[row,column] = 0
-    return False 
+    return (False, array) 
 
 # finds the next zero in the puzzle grid and returns it to the puzzle solver
 def findNextZero (array):
